@@ -1,0 +1,88 @@
+{
+  "cv_roc_auc_mean": 0.7121099797775591,
+  "cv_roc_auc_std": 0.003472894303469455,
+  "test_roc_auc": 0.7182431004218325,
+  "threshold": 0.49094144096808134,
+  "classification_report": {
+    "0": {
+      "precision": 0.792336217552534,
+      "recall": 0.6862955032119914,
+      "f1-score": 0.7355134825014343,
+      "support": 934.0
+    },
+    "1": {
+      "precision": 0.5042301184433164,
+      "recall": 0.6394849785407726,
+      "f1-score": 0.5638599810785241,
+      "support": 466.0
+    },
+    "accuracy": 0.6707142857142857,
+    "macro avg": {
+      "precision": 0.6482831679979253,
+      "recall": 0.6628902408763819,
+      "f1-score": 0.6496867317899793,
+      "support": 1400.0
+    },
+    "weighted avg": {
+      "precision": 0.696438044563323,
+      "recall": 0.6707142857142857,
+      "f1-score": 0.6783773884563798,
+      "support": 1400.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      641,
+      293
+    ],
+    [
+      168,
+      298
+    ]
+  ],
+  "top_features": [
+    {
+      "feature": "monthly_charges",
+      "importance": 0.1377582967078218
+    },
+    {
+      "feature": "total_charges",
+      "importance": 0.12372092670709965
+    },
+    {
+      "feature": "tenure_months",
+      "importance": 0.11158220596461649
+    },
+    {
+      "feature": "contract_Month-to-month",
+      "importance": 0.07914255722069445
+    },
+    {
+      "feature": "contract_Two year",
+      "importance": 0.04190083337998858
+    },
+    {
+      "feature": "payment_method_Electronic check",
+      "importance": 0.029471409161571326
+    },
+    {
+      "feature": "internet_service_Fiber optic",
+      "importance": 0.024929536668259554
+    },
+    {
+      "feature": "contract_One year",
+      "importance": 0.02043665733033836
+    },
+    {
+      "feature": "streaming_movies_No internet service",
+      "importance": 0.017536848243417072
+    },
+    {
+      "feature": "online_security_No",
+      "importance": 0.016233095858612184
+    }
+  ],
+  "trained_at": "2026-08-08T18:47:00.206988+00:00",
+  "n_train": 5600,
+  "n_test": 1400
+}

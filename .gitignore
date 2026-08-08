@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.env
+
+# Keep the trained model + data in the repo so it's a complete, runnable
+# portfolio project out of the box -- comment these back in if you'd rather
+# keep the repo lightweight and have users regenerate everything locally.
+# data/customer_churn.csv
+# model/churn_model.joblib
